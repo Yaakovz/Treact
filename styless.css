@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  height: 80px;
+  display: flex;
+}
+
+.nav__container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+.logo__img {
+  width: 40px;
+  margin-right: 12px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 300ms ease;
+}
+
+.purple {
+    color: #7432d6;
+}
+
+.nav__link {
+  margin-left: 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px;
+}
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.nav__link--signup {
+  display: flex;
+}
+
+.nav__link--primary {
+  background-color: #7432d6;
+  color: white;
+  border-radius: 25px;
+}
+
+.nav__link--primary:hover {
+  background-color: pink;
+  border: 2px solid pink;
+}
+
+
+
+/*
+
+
+Header
+
+
+*/
+
+
+header {
+    height: calc(100vh - 80px);
+  }
+
+
+  .header__container {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 50px;
+  }
+.header__description {
+    width: 100%;
+    max-width: 320px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.header__description--para{
+    margin-bottom: 20px;
+ }
+
+ .customers__info--para {
+    font-size: ;
+ }
+
+.customer__img {
+    width: 100%;
+}
+.header__img--wrapper {
+    display: flex;
+    align-items: center;
+}
+
+  .header__img {
+width: 100%;
+max-width: 400px;
+}
+
+.email__form {
+    border: 2px solid lightgrey;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 8px;
+}
+
+.btn {
+    background-color: #7432d6;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.email__form--submission { 
+border: none;
+}
